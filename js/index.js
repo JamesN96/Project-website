@@ -12,11 +12,13 @@ exit.addEventListener("click", closeMenu);
 // toggleMenu function
 
 function showMenu(e) {
-  nav.style.display = "block";
+  nav.classList.toggle("mobile");
+  e.preventDefault();
 }
 
 // closeMenu
 
 function closeMenu(e) {
-  nav.style.display = "none";
+  nav.classList.add("mobile");
+  e.preventDefault();
 }
