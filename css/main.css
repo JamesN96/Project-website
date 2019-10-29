@@ -260,3 +260,77 @@ ul.footer-ul li a {
   text-decoration: none;
   font-size: 0.8rem;
 }
+
+/* Media Queries */
+
+@media only screen and (min-width: 650px) {
+  header nav ul {
+    width: 40%;
+  }
+
+  /* Main */
+
+  .server {
+    width: 50%;
+  }
+
+  #main h1 {
+    font-size: 2.8rem;
+    margin-top: 0;
+  }
+
+  #main p {
+    font-size: 1.5rem;
+    margin-bottom: 15%;
+  }
+
+  /* Boxes */
+
+  .blue-container {
+    margin: 0;
+  }
+
+  .blue-container ul {
+    display: flex;
+  }
+
+  .blue-container ul li {
+    margin-bottom: 0;
+  }
+
+  .blue-container ul li p {
+    padding: 0 0.8rem;
+  }
+  .blue-container img {
+    width: 25%;
+  }
+
+  .blue-container ul li:nth-child(3) img {
+    width: 15%;
+    margin-top: -10px;
+  }
+
+  /* Testimonials */
+
+  .grey-container ul {
+    display: flex;
+    margin-top: 2rem;
+  }
+
+  /* Newsletter */
+
+  section#newsletter h1 {
+    font-size: 2rem;
+  }
+  section#newsletter input[type="email"] {
+    display: inline;
+    width: 40%;
+  }
+
+  .cta {
+    display: inline;
+    width: 20%;
+    margin-left: 10px;
+    height: 50px;
+  }
+}
