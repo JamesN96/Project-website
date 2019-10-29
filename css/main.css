@@ -142,3 +142,34 @@ figcaption {
   font-weight: bold;
   color: #00c2ff;
 }
+
+/* Newsletter */
+
+section#newsletter h1 {
+  margin-top: 10%;
+  font-weight: 100;
+}
+
+section#newsletter input[type="email"] {
+  display: inline-block;
+  width: 80%;
+  height: 50px;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  font-size: 1rem;
+  padding-left: 10px;
+}
+
+.cta {
+  display: inline-block;
+  width: 80%;
+  height: 60px;
+  border-radius: 20px;
+  margin-top: 15px;
+  font-size: 1.5rem;
+  background: #00cc80;
+  outline: none;
+  position: relative;
+  z-index: 4;
+}
