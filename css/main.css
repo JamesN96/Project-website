@@ -116,3 +116,29 @@ p {
 .blue-container ul li:nth-child(3) img {
   width: 10%;
 }
+
+/* Testimonials  */
+
+.grey-container {
+  background: #f6f6f6;
+  padding: 4rem 0 2rem;
+  margin-top: -3%;
+}
+
+.grey-container ul li:first-child {
+  margin-bottom: 2rem;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+}
+
+blockquote {
+  padding: 0 3rem;
+}
+
+figcaption {
+  font-weight: bold;
+  color: #00c2ff;
+}
