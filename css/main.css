@@ -342,7 +342,7 @@ ul.footer-ul li a {
   }
 
   #main p {
-    margin-bottom: 25%;
+    margin-bottom: 20%;
   }
 
   /* Boxes */
@@ -351,7 +351,67 @@ ul.footer-ul li a {
     margin: 3% 0;
   }
 
+  /* Testimonials */
+
   .grey-container ul {
     margin: 5% 0 3% 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .desktop {
+    display: block;
+    margin: 0 auto 13% auto;
+  }
+
+  .hide-desktop {
+    display: none;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  /* Header */
+
+  header nav ul {
+    width: auto;
+    background: none;
+    height: auto;
+    display: flex;
+    padding-top: 2rem;
+    position: relative;
+  }
+
+  header nav ul li {
+    float: left;
+  }
+
+  header nav ul li a {
+    color: black;
+    background: inherit;
+    text-align: right;
+  }
+
+  header nav ul li a:hover {
+    font-weight: bold;
+    background: inherit;
+  }
+
+  /* Boxes */
+
+  .blue-container .container {
+    padding-left: 0;
+    padding-right: 0;
+    width: 90%;
+  }
+
+  .blue-container ul li {
+    padding: 0 1rem;
+  }
+
+  .blue-container ul li p {
+    padding: 0;
   }
 }
