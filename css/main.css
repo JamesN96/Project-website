@@ -219,7 +219,7 @@ section#newsletter input[type="email"] {
   border-top-right-radius: 40px;
 }
 
-.footer-container:before {
+/* .footer-container:before {
   content: "";
   height: 40px;
   width: 40px;
@@ -240,7 +240,7 @@ section#newsletter input[type="email"] {
   left: 0px;
   z-index: -1;
   border-radius: 50%;
-}
+} */
 
 ul.footer-ul {
   margin: 0 auto;
