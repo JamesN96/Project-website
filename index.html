@@ -23,7 +23,7 @@
             <img
               src="img/ham.svg"
               alt="hamburger icon"
-              class="menu"
+              class="menu hide-desktop"
               id="menu-toggle"
             />
           </a>
@@ -46,13 +46,17 @@
       </header>
 
       <section id="main">
-        <img src="img/server.svg" alt="" />
+        <img src="img/server.svg" alt="" class="server" />
 
         <h1>Jims Easy Tennis School</h1>
 
         <p>The best tennis centre in south west sydney</p>
 
-        <img src="img/scroll.svg" alt="scrolling icon" class="scroll mobile" />
+        <img
+          src="img/scroll.svg"
+          alt="scrolling icon"
+          class="scroll desktop mobile"
+        />
       </section>
     </div>
 
@@ -128,7 +132,9 @@
       <div class="container">
         <h1>Enter your email to apply for news</h1>
 
-        <input type="email" class="cta" />
+        <input type="email" />
+
+        <button class="cta">Submit</button>
       </div>
     </section>
 
@@ -149,5 +155,7 @@
         </div>
       </div>
     </footer>
+
+    <script src="js/index.js"></script>
   </body>
 </html>
