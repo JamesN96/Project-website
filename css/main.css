@@ -334,3 +334,24 @@ ul.footer-ul li a {
     height: 50px;
   }
 }
+
+@media only screen and (min-width: 850px) {
+  /* Main */
+  .server {
+    margin: 2rem auto 2rem 16%;
+  }
+
+  #main p {
+    margin-bottom: 25%;
+  }
+
+  /* Boxes */
+
+  .blue-container ul {
+    margin: 3% 0;
+  }
+
+  .grey-container ul {
+    margin: 5% 0 3% 0;
+  }
+}
