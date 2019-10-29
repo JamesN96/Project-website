@@ -42,6 +42,41 @@ header {
   margin-top: 90%;
 }
 
+header nav ul {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 60%;
+  background: rgb(36, 41, 44);
+  height: 100%;
+  z-index: 5;
+  padding-top: 3rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  background: rgb(52, 59, 63);
+  display: block;
+  padding: 1.5rem 2rem;
+}
+
+header nav ul li a:hover {
+  background: #00c2ff;
+}
+
+.exit-btn {
+  margin-bottom: 1rem;
+  margin-top: -1.3rem;
+  text-align: right;
+  padding: 0 1.4rem;
+}
+
+.exit-btn img {
+  width: 15px;
+  cursor: pointer;
+}
+
 /* Main */
 
 .server {
@@ -166,7 +201,7 @@ section#newsletter input[type="email"] {
   width: 80%;
   height: 60px;
   border-radius: 20px;
-  margin: 5% auto 10%;
+  margin: 2% auto 10%;
   font-size: 1.5rem;
   background: #00cc80;
   outline: none;
